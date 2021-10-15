@@ -1,6 +1,6 @@
-#define _clock 7
-#define _latch 6
-#define _data 5
+#define _clock 10
+#define _latch 8
+#define _data 9
 
 void setup() 
 {
@@ -15,7 +15,7 @@ void loop()
   for(int i=0; i<256;i++)
   {
     digitalWrite(_latch,LOW);
-    shiftOut(_data,_clock,LSBFIRST,i);
+    shiftOut(_data,_clock,MSBFIRST,i);
     digitalWrite(_latch,HIGH);
     delay(500);
   }
