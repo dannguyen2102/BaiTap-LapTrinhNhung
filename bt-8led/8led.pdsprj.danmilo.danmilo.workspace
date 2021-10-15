@@ -64,7 +64,7 @@
      <ITEM name="TopLineAddress">00000000</ITEM>
     </PROPERTIES>
    </POPUP>
-   <POPUP w="16" x="402" flags="00000000" y="338" h="32" pid="14" iid="1">
+   <POPUP w="16" x="402" flags="80000000" y="338" h="32" pid="14" iid="1">
     <PROPERTIES>
      <ITEM name="DataType">2</ITEM>
      <ITEM name="DispChars">Yes</ITEM>
@@ -120,12 +120,6 @@
      <ITEM name="Value Column Width">93</ITEM>
      <ITEM name="Version">100</ITEM>
      <ITEM name="nItems">0</ITEM>
-    </PROPERTIES>
-   </POPUP>
-   <POPUP w="450" x="282" flags="00000022" y="218" h="250" pid="0" iid="6">
-    <PROPERTIES>
-     <ITEM name="AutoEcho">0</ITEM>
-     <ITEM name="HexMode">0</ITEM>
     </PROPERTIES>
    </POPUP>
   </PWI>
