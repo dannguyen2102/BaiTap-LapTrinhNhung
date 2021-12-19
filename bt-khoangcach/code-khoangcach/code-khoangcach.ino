@@ -1,6 +1,6 @@
-int trigger = 12;
-int echo = 11;
-int led = 8;
+int trigger = 3;
+int echo = 2;
+int led = 11;
 
 long duration = 0;
 int cm = 0;
